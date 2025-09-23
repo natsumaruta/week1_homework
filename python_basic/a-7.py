@@ -3,6 +3,10 @@ for を使って even_numbers のそれぞれの値を2倍した値を出力し�
 
 even_numbers = [2, 4, 6, 8]
 
+# for number in even_numbers:
+#     number_double = number * 2
+#     print(number_double)
+
+# 修正版（20250923_アドバイスにより変更）
 for number in even_numbers:
-    number_double = number * 2
-    print(number_double)
+    print(number * 2)
