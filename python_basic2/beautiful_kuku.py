@@ -19,8 +19,8 @@
 1 x 9 =  9 | 2 x 9 = 18 | 3 x 9 = 27 | 4 x 9 = 36 | 5 x 9 = 45 | 6 x 9 = 54 | 7 x 9 = 63 | 8 x 9 = 72 | 9 x 9 = 81 |
 """
 
-row = int(input("行数を入力してください:"))
-column = int(input("列数を入力してください:"))
+row = int(input("行数を入力してください: "))
+column = int(input("列数を入力してください: "))
 
 
 for r in range(1, row + 1):  # 例)4のときはrange（１,4+1)
