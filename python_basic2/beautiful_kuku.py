@@ -23,7 +23,7 @@ row = int(input("行数を入力してください:"))
 column = int(input("列数を入力してください:"))
 
 
-for r in range(1, row + 1):  # 例)4のときはrange（１
+for r in range(1, row + 1):  # 例)4のときはrange（１,4+1)
     for c in range(1, column + 1):
         ans = r * c
         # フォーマット指定（>:右寄せ、幅を3文字に揃える）,end=" ":print の改行をスペースに置き換える

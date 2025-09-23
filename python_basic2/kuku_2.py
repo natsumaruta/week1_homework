@@ -19,5 +19,5 @@ for r in range(1, row + 1):  # 例)4のときはrange（１
     for c in range(1, column + 1):
         ans = r * c
         # フォーマット指定（>:右寄せ、幅を４文字に揃える）,end=" ":print の改行をスペースに置き換える
-        print(f"{ans:>3}", end="")  
-    print()  #改行
+        print(f"{ans:>3}", end="")
+    print()  # 改行

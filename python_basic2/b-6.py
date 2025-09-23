@@ -12,11 +12,13 @@ import random
 dice_face = int(input("サイコロの面の数は?:"))
 dice_time = int(input("何回振りますか?:"))
 
-def dice_result(face,time):
+
+def dice_result(face, time):
     results = []
     for t in range(time):
-        result = random.randint(1,face)
+        result = random.randint(1, face)
         results.append(result)
     return results
 
-print(dice_result(dice_face,dice_time))
+
+print(dice_result(dice_face, dice_time))
