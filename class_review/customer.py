@@ -56,7 +56,7 @@ class Customer:
         full_name = self.full_name()
         age = self.age
         entry_fee = self.entry_fee()
-        return f"{full_name:<16}{age:<8}{entry_fee}"
+        return f"{full_name}\t{age}\t{entry_fee}"
 
     # C-8. 単一顧客の情報取得形式の追加その2
     # print(ken.info_csv())  # "Ken Tanaka|15|1000" という値を出力
@@ -67,4 +67,3 @@ class Customer:
         entry_fee = self.entry_fee()
         return f"{full_name}|{age}|{entry_fee}"
 
-    pass
